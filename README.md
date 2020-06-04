@@ -1,6 +1,6 @@
 # Anki Resources SDK Sample applications
 
-This solution contains 2 tutorial applications for the Anki Resources SDK.
+This solution contains a tutorial applications for the Anki Resources SDK.
 
 ## Getting Started
 
