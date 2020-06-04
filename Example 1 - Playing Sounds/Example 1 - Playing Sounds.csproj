@@ -1,0 +1,17 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <RootNamespace>Example_1___Playing_Sounds</RootNamespace>
+    <UseWindowsForms>true</UseWindowsForms>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Anki.Resources.SDK" Version="0.0.1" />
+    <PackageReference Include="NAudio" Version="1.10.0" />
+    <PackageReference Include="NAudio.Vorbis" Version="1.2.0" />
+    <PackageReference Include="NVorbis" Version="0.10.1" />
+  </ItemGroup>
+
+</Project>
