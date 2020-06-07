@@ -2,7 +2,7 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Anki.Resources.SDK/0.0.1": {
+      "Anki.Resources.SDK/0.0.3": {
         "type": "package",
         "dependencies": {
           "NAudio": "1.10.0",
@@ -499,18 +499,19 @@
     }
   },
   "libraries": {
-    "Anki.Resources.SDK/0.0.1": {
-      "sha512": "Ydh5CLYqTG1MGkFV/CF2WLlCsQ2U3HaelibdDKGyhRLTGF7qITw+tE91KjnRC2FL3cNwSdcztR377dh44hWzGA==",
+    "Anki.Resources.SDK/0.0.3": {
+      "sha512": "ZH1MjX37ExrtKS4sRM6WD+oD3jmvKihRAcc5rMYwAmcXICW1hadH8LL5SJ76aGo1vcxOhpO0SqculshhT/WTcA==",
       "type": "package",
-      "path": "anki.resources.sdk/0.0.1",
+      "path": "anki.resources.sdk/0.0.3",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "anki.resources.sdk.0.0.1.nupkg.sha512",
+        "anki.resources.sdk.0.0.3.nupkg.sha512",
         "anki.resources.sdk.nuspec",
         "lib/netstandard2.1/Anki.Resources.SDK.dll",
-        "lib/netstandard2.1/Anki.Resources.SDK.xml"
+        "lib/netstandard2.1/Anki.Resources.SDK.xml",
+        "logo-big.png"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.1": {
@@ -2162,7 +2163,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Anki.Resources.SDK >= 0.0.1",
+      "Anki.Resources.SDK >= 0.0.3",
       "NAudio >= 1.10.0",
       "NAudio.Vorbis >= 1.2.0",
       "NVorbis >= 0.10.1"
@@ -2207,7 +2208,7 @@
         "dependencies": {
           "Anki.Resources.SDK": {
             "target": "Package",
-            "version": "[0.0.1, )"
+            "version": "[0.0.3, )"
           },
           "NAudio": {
             "target": "Package",

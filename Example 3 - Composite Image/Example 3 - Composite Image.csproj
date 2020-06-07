@@ -3,15 +3,18 @@
   <PropertyGroup>
     <OutputType>WinExe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
-    <RootNamespace>Example_1___Playing_Sounds</RootNamespace>
+    <RootNamespace>Example_3___Composite_Image</RootNamespace>
     <UseWindowsForms>true</UseWindowsForms>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="Anki.Resources.SDK" Version="0.0.3" />
-    <PackageReference Include="NAudio" Version="1.10.0" />
-    <PackageReference Include="NAudio.Vorbis" Version="1.2.0" />
-    <PackageReference Include="NVorbis" Version="0.10.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Anki.Resources.SDK">
+      <HintPath>..\..\..\Anki.Resources.SDK\bin\Debug\netstandard2.1\Anki.Resources.SDK.dll</HintPath>
+    </Reference>
   </ItemGroup>
 
 </Project>

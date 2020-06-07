@@ -2167,11 +2167,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj",
-      "projectName": "Example 2 - Playing Sprite Sequences",
-      "projectPath": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj",
+      "projectUniqueName": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 3 - Composite Image\\Example 3 - Composite Image.csproj",
+      "projectName": "Example 3 - Composite Image",
+      "projectPath": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 3 - Composite Image\\Example 3 - Composite Image.csproj",
       "packagesPath": "C:\\Users\\Randall\\.nuget\\packages\\",
-      "outputPath": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 2 - Playing Sprite Sequences\\obj\\",
+      "outputPath": "G:\\projects\\vector\\Anki.Resources.Samples\\Anki.Resource.Samples\\Example 3 - Composite Image\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "c:\\Users\\Randall\\AppData\\Roaming\\NuGet\\NuGet.Config",
