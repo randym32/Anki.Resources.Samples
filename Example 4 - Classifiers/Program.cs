@@ -6,7 +6,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace Example_1___Playing_Sounds
+namespace Example_4___Classifier
 {
     static class Program
     {
@@ -19,7 +19,7 @@ namespace Example_1___Playing_Sounds
             Application.SetHighDpiMode(HighDpiMode.SystemAware);
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Sounds());
+            Application.Run(new ClassifierForm());
         }
     }
 }

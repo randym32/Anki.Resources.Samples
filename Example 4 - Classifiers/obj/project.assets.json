@@ -43,7 +43,16 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Emgu.TF.Lite/2.1.0.840": {
+      "Emgu.CV.runtime.windows/4.3.0.3890": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.CV": "[4.3.0.3890]"
+        },
+        "build": {
+          "build/Emgu.CV.runtime.windows.targets": {}
+        }
+      },
+      "Emgu.TF.Lite/2.2.0.932": {
         "type": "package",
         "dependencies": {
           "System.Runtime.InteropServices.RuntimeInformation": "[4.3.0]"
@@ -53,6 +62,15 @@
         },
         "runtime": {
           "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.dll": {}
+        }
+      },
+      "Emgu.TF.Lite.runtime.windows/2.2.0.932": {
+        "type": "package",
+        "dependencies": {
+          "Emgu.TF.Lite": "[2.2.0.932]"
+        },
+        "build": {
+          "build/Emgu.TF.Lite.runtime.windows.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.1": {
@@ -140,12 +158,7 @@
           "lib/netstandard2.0/NAudio.Vorbis.dll": {}
         },
         "contentFiles": {
-          "contentFiles/any/netstandard2.0/LICENSE": {
-            "buildAction": "None",
-            "codeLanguage": "any",
-            "copyToOutput": false
-          },
-          "contentFiles/any/netstandard2.0/README.md": {
+          "contentFiles/any/any/_._": {
             "buildAction": "None",
             "codeLanguage": "any",
             "copyToOutput": false
@@ -626,19 +639,65 @@
         "lib/xamarinios10/Emgu.CV.Platform.NetStandard.xml"
       ]
     },
-    "Emgu.TF.Lite/2.1.0.840": {
-      "sha512": "puZF481zFlOiaxNu4kwXSGqOes96J3XDqNTrx3fC8vSwZEaZu5A/GrR3SurtLv0JR3culjTkcOUA2/0PFNeNng==",
+    "Emgu.CV.runtime.windows/4.3.0.3890": {
+      "sha512": "vvuz7KPB8aTf4nSg1XNClHBDJMVDQoxy32MCx8mat5leSvgc6jaX1JF0ly/w25VMGp1vpiezNuW/QIJPERBm5w==",
       "type": "package",
-      "path": "emgu.tf.lite/2.1.0.840",
+      "path": "emgu.cv.runtime.windows/4.3.0.3890",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.CV.License.txt",
+        "build/Emgu.CV.runtime.windows.targets",
+        "build/x64/concrt140.dll",
+        "build/x64/cvextern.dll",
+        "build/x64/msvcp140.dll",
+        "build/x64/msvcp140_1.dll",
+        "build/x64/msvcp140_2.dll",
+        "build/x64/msvcp140_codecvt_ids.dll",
+        "build/x64/opencv_videoio_ffmpeg430_64.dll",
+        "build/x64/vcruntime140.dll",
+        "build/x64/vcruntime140_1.dll",
+        "build/x86/concrt140.dll",
+        "build/x86/cvextern.dll",
+        "build/x86/msvcp140.dll",
+        "build/x86/msvcp140_1.dll",
+        "build/x86/msvcp140_2.dll",
+        "build/x86/msvcp140_codecvt_ids.dll",
+        "build/x86/opencv_videoio_ffmpeg430.dll",
+        "build/x86/vcruntime140.dll",
+        "emgu.cv.runtime.windows.4.3.0.3890.nupkg.sha512",
+        "emgu.cv.runtime.windows.nuspec",
+        "icon.png"
+      ]
+    },
+    "Emgu.TF.Lite/2.2.0.932": {
+      "sha512": "bcoYuAgGeiUqKwOCdvVBBtbiD4nCET2IvNJVLoxJ0uWqbDka8OoIZJwkCw57Jxv61sBbJKy8+475UJ4xdI5fzw==",
+      "type": "package",
+      "path": "emgu.tf.lite/2.2.0.932",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Emgu.TF.License.txt",
-        "emgu.tf.lite.2.1.0.840.nupkg.sha512",
+        "emgu.tf.lite.2.2.0.932.nupkg.sha512",
         "emgu.tf.lite.nuspec",
         "icon.png",
         "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.dll",
         "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.xml"
+      ]
+    },
+    "Emgu.TF.Lite.runtime.windows/2.2.0.932": {
+      "sha512": "4mdpDNk3dbHefdGI8MQt+YtcZhKz7XAoWrpMW4jEY0M7kXoycMYZrCrPzjXsE+f2nHgKHRMLQkNK97fMLqQ4kA==",
+      "type": "package",
+      "path": "emgu.tf.lite.runtime.windows/2.2.0.932",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Emgu.TF.License.txt",
+        "build/Emgu.TF.Lite.runtime.windows.targets",
+        "build/x64/tfliteextern.dll",
+        "emgu.tf.lite.runtime.windows.2.2.0.932.nupkg.sha512",
+        "emgu.tf.lite.runtime.windows.nuspec",
+        "icon.png"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.1": {
@@ -2412,9 +2471,10 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
       "Anki.Resources.SDK >= 0.0.4",
-      "NAudio >= 1.10.0",
-      "NAudio.Vorbis >= 1.2.0",
-      "NVorbis >= 0.10.1"
+      "Emgu.CV >= 4.3.0.3890",
+      "Emgu.CV.runtime.windows >= 4.3.0.3890",
+      "Emgu.TF.Lite >= 2.2.0.932",
+      "Emgu.TF.Lite.runtime.windows >= 2.2.0.932"
     ]
   },
   "packageFolders": {
@@ -2423,11 +2483,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 1 - Playing Sounds\\Example 1 - Playing Sounds.csproj",
-      "projectName": "Example 1 - Playing Sounds",
-      "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 1 - Playing Sounds\\Example 1 - Playing Sounds.csproj",
+      "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
+      "projectName": "Example 4 - Classifier",
+      "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
       "packagesPath": "C:\\Users\\Randall\\.nuget\\packages\\",
-      "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 1 - Playing Sounds\\obj\\",
+      "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "c:\\Users\\Randall\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2458,17 +2518,21 @@
             "target": "Package",
             "version": "[0.0.4, )"
           },
-          "NAudio": {
+          "Emgu.CV": {
             "target": "Package",
-            "version": "[1.10.0, )"
+            "version": "[4.3.0.3890, )"
           },
-          "NAudio.Vorbis": {
+          "Emgu.CV.runtime.windows": {
             "target": "Package",
-            "version": "[1.2.0, )"
+            "version": "[4.3.0.3890, )"
           },
-          "NVorbis": {
+          "Emgu.TF.Lite": {
             "target": "Package",
-            "version": "[0.10.1, )"
+            "version": "[2.2.0.932, )"
+          },
+          "Emgu.TF.Lite.runtime.windows": {
+            "target": "Package",
+            "version": "[2.2.0.932, )"
           }
         },
         "imports": [

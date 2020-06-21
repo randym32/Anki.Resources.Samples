@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj": {}
+    "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj": {}
   },
   "projects": {
-    "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj": {
+    "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj",
-        "projectName": "Example 2 - Playing Sprite Sequences",
-        "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 2 - Playing Sprite Sequences\\Example 2 - Playing Sprite Sequences.csproj",
+        "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
+        "projectName": "Example 4 - Classifier",
+        "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
         "packagesPath": "C:\\Users\\Randall\\.nuget\\packages\\",
-        "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 2 - Playing Sprite Sequences\\obj\\",
+        "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "c:\\Users\\Randall\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -41,6 +41,22 @@
             "Anki.Resources.SDK": {
               "target": "Package",
               "version": "[0.0.4, )"
+            },
+            "Emgu.CV": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            },
+            "Emgu.CV.runtime.windows": {
+              "target": "Package",
+              "version": "[4.3.0.3890, )"
+            },
+            "Emgu.TF.Lite": {
+              "target": "Package",
+              "version": "[2.2.0.932, )"
+            },
+            "Emgu.TF.Lite.runtime.windows": {
+              "target": "Package",
+              "version": "[2.2.0.932, )"
             }
           },
           "imports": [
