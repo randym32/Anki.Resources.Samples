@@ -11,7 +11,7 @@ This solution contains tutorial applications for the Anki Resources SDK.
 
 ## Sample Projects
 
-There are three examples for now.
+There are four examples for now.
 
 ### Example 1 - Playing a Sound
 
