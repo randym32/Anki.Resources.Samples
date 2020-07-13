@@ -2,10 +2,10 @@
   "version": 3,
   "targets": {
     ".NETCoreApp,Version=v3.1": {
-      "Anki.Resources.SDK/0.0.4": {
+      "Anki.Resources.SDK/0.0.5": {
         "type": "package",
         "dependencies": {
-          "EMGU.TF.LITE": "2.1.0.840",
+          "EMGU.TF.LITE": "2.2.0.932",
           "Emgu.CV": "4.3.0.3890",
           "NAudio": "1.10.0",
           "NAudio.Vorbis": "1.2.0",
@@ -43,7 +43,7 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Emgu.TF.Lite/2.1.0.840": {
+      "Emgu.TF.Lite/2.2.0.932": {
         "type": "package",
         "dependencies": {
           "System.Runtime.InteropServices.RuntimeInformation": "[4.3.0]"
@@ -586,15 +586,15 @@
     }
   },
   "libraries": {
-    "Anki.Resources.SDK/0.0.4": {
-      "sha512": "bUtiNL+DKn0pEOW7yAtXo+RReM94L0DhP1FizYiPL2w/cAaAcigUmxaSqu/Txenw945/vHKvF3CXhiV5qNqHaQ==",
+    "Anki.Resources.SDK/0.0.5": {
+      "sha512": "/SQIt6kGJmsqGvu9SzY49d80fY8x1EQByYRh8eCeu6HvnnD3fBPZUZZqQajEBTQZcoSXRbOk5nVmKZGcS8SflQ==",
       "type": "package",
-      "path": "anki.resources.sdk/0.0.4",
+      "path": "anki.resources.sdk/0.0.5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "LICENSE",
-        "anki.resources.sdk.0.0.4.nupkg.sha512",
+        "anki.resources.sdk.0.0.5.nupkg.sha512",
         "anki.resources.sdk.nuspec",
         "lib/netstandard2.1/Anki.Resources.SDK.dll",
         "lib/netstandard2.1/Anki.Resources.SDK.xml",
@@ -626,15 +626,15 @@
         "lib/xamarinios10/Emgu.CV.Platform.NetStandard.xml"
       ]
     },
-    "Emgu.TF.Lite/2.1.0.840": {
-      "sha512": "puZF481zFlOiaxNu4kwXSGqOes96J3XDqNTrx3fC8vSwZEaZu5A/GrR3SurtLv0JR3culjTkcOUA2/0PFNeNng==",
+    "Emgu.TF.Lite/2.2.0.932": {
+      "sha512": "bcoYuAgGeiUqKwOCdvVBBtbiD4nCET2IvNJVLoxJ0uWqbDka8OoIZJwkCw57Jxv61sBbJKy8+475UJ4xdI5fzw==",
       "type": "package",
-      "path": "emgu.tf.lite/2.1.0.840",
+      "path": "emgu.tf.lite/2.2.0.932",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Emgu.TF.License.txt",
-        "emgu.tf.lite.2.1.0.840.nupkg.sha512",
+        "emgu.tf.lite.2.2.0.932.nupkg.sha512",
         "emgu.tf.lite.nuspec",
         "icon.png",
         "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.dll",
@@ -2411,7 +2411,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Anki.Resources.SDK >= 0.0.4",
+      "Anki.Resources.SDK >= 0.0.5",
       "NAudio >= 1.10.0",
       "NAudio.Vorbis >= 1.2.0",
       "NVorbis >= 0.10.1"
@@ -2456,7 +2456,7 @@
         "dependencies": {
           "Anki.Resources.SDK": {
             "target": "Package",
-            "version": "[0.0.4, )"
+            "version": "[0.0.5, )"
           },
           "NAudio": {
             "target": "Package",

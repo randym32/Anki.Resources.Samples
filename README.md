@@ -63,3 +63,7 @@ Some tips:
  
   3. Objects often should be close as possible to the camera, but still in the frame
 
+
+### Example 5 - Text Substitution
+
+An example of how to employ the text localization strings in the resources/assets.

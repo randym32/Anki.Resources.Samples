@@ -8,7 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <PackageReference Include="Anki.Resources.SDK" Version="0.0.4" />
+    <PackageReference Include="Anki.Resources.SDK" Version="0.0.5" />
     <PackageReference Include="Emgu.CV" Version="4.3.0.3890" />
     <PackageReference Include="Emgu.CV.runtime.windows" Version="4.3.0.3890" />
     <PackageReference Include="Emgu.TF.Lite" Version="2.2.0.932" />

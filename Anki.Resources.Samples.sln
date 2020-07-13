@@ -11,6 +11,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 3 - Composite Image
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 4 - Classifier", "Example 4 - Classifiers\Example 4 - Classifier.csproj", "{AFC354B5-24B1-4B2E-ACEF-B7F1A63BE735}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Example 5 - Text Substitutions", "Example 5 - Text substitution\Example 5 - Text Substitutions.csproj", "{56603B5C-F950-4D6D-BD4F-7EF32BFE8D77}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{AFC354B5-24B1-4B2E-ACEF-B7F1A63BE735}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AFC354B5-24B1-4B2E-ACEF-B7F1A63BE735}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AFC354B5-24B1-4B2E-ACEF-B7F1A63BE735}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56603B5C-F950-4D6D-BD4F-7EF32BFE8D77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56603B5C-F950-4D6D-BD4F-7EF32BFE8D77}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56603B5C-F950-4D6D-BD4F-7EF32BFE8D77}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56603B5C-F950-4D6D-BD4F-7EF32BFE8D77}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

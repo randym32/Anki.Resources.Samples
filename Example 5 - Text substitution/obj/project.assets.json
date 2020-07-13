@@ -43,15 +43,6 @@
           "Microsoft.WindowsDesktop.App.WindowsForms"
         ]
       },
-      "Emgu.CV.runtime.windows/4.3.0.3890": {
-        "type": "package",
-        "dependencies": {
-          "Emgu.CV": "[4.3.0.3890]"
-        },
-        "build": {
-          "build/Emgu.CV.runtime.windows.targets": {}
-        }
-      },
       "Emgu.TF.Lite/2.2.0.932": {
         "type": "package",
         "dependencies": {
@@ -62,15 +53,6 @@
         },
         "runtime": {
           "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.dll": {}
-        }
-      },
-      "Emgu.TF.Lite.runtime.windows/2.2.0.932": {
-        "type": "package",
-        "dependencies": {
-          "Emgu.TF.Lite": "[2.2.0.932]"
-        },
-        "build": {
-          "build/Emgu.TF.Lite.runtime.windows.targets": {}
         }
       },
       "Microsoft.NETCore.Platforms/3.1.1": {
@@ -639,37 +621,6 @@
         "lib/xamarinios10/Emgu.CV.Platform.NetStandard.xml"
       ]
     },
-    "Emgu.CV.runtime.windows/4.3.0.3890": {
-      "sha512": "vvuz7KPB8aTf4nSg1XNClHBDJMVDQoxy32MCx8mat5leSvgc6jaX1JF0ly/w25VMGp1vpiezNuW/QIJPERBm5w==",
-      "type": "package",
-      "path": "emgu.cv.runtime.windows/4.3.0.3890",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Emgu.CV.License.txt",
-        "build/Emgu.CV.runtime.windows.targets",
-        "build/x64/concrt140.dll",
-        "build/x64/cvextern.dll",
-        "build/x64/msvcp140.dll",
-        "build/x64/msvcp140_1.dll",
-        "build/x64/msvcp140_2.dll",
-        "build/x64/msvcp140_codecvt_ids.dll",
-        "build/x64/opencv_videoio_ffmpeg430_64.dll",
-        "build/x64/vcruntime140.dll",
-        "build/x64/vcruntime140_1.dll",
-        "build/x86/concrt140.dll",
-        "build/x86/cvextern.dll",
-        "build/x86/msvcp140.dll",
-        "build/x86/msvcp140_1.dll",
-        "build/x86/msvcp140_2.dll",
-        "build/x86/msvcp140_codecvt_ids.dll",
-        "build/x86/opencv_videoio_ffmpeg430.dll",
-        "build/x86/vcruntime140.dll",
-        "emgu.cv.runtime.windows.4.3.0.3890.nupkg.sha512",
-        "emgu.cv.runtime.windows.nuspec",
-        "icon.png"
-      ]
-    },
     "Emgu.TF.Lite/2.2.0.932": {
       "sha512": "bcoYuAgGeiUqKwOCdvVBBtbiD4nCET2IvNJVLoxJ0uWqbDka8OoIZJwkCw57Jxv61sBbJKy8+475UJ4xdI5fzw==",
       "type": "package",
@@ -683,21 +634,6 @@
         "icon.png",
         "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.dll",
         "lib/netstandard2.0/Emgu.TF.Lite.Netstandard.xml"
-      ]
-    },
-    "Emgu.TF.Lite.runtime.windows/2.2.0.932": {
-      "sha512": "4mdpDNk3dbHefdGI8MQt+YtcZhKz7XAoWrpMW4jEY0M7kXoycMYZrCrPzjXsE+f2nHgKHRMLQkNK97fMLqQ4kA==",
-      "type": "package",
-      "path": "emgu.tf.lite.runtime.windows/2.2.0.932",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Emgu.TF.License.txt",
-        "build/Emgu.TF.Lite.runtime.windows.targets",
-        "build/x64/tfliteextern.dll",
-        "emgu.tf.lite.runtime.windows.2.2.0.932.nupkg.sha512",
-        "emgu.tf.lite.runtime.windows.nuspec",
-        "icon.png"
       ]
     },
     "Microsoft.NETCore.Platforms/3.1.1": {
@@ -2470,11 +2406,7 @@
   },
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v3.1": [
-      "Anki.Resources.SDK >= 0.0.5",
-      "Emgu.CV >= 4.3.0.3890",
-      "Emgu.CV.runtime.windows >= 4.3.0.3890",
-      "Emgu.TF.Lite >= 2.2.0.932",
-      "Emgu.TF.Lite.runtime.windows >= 2.2.0.932"
+      "Anki.Resources.SDK >= 0.0.5"
     ]
   },
   "packageFolders": {
@@ -2483,11 +2415,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
-      "projectName": "Example 4 - Classifier",
-      "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\Example 4 - Classifier.csproj",
+      "projectUniqueName": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 5 - Text substitution\\Example 5 - Text Substitutions.csproj",
+      "projectName": "Example 5 - Text Substitutions",
+      "projectPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 5 - Text substitution\\Example 5 - Text Substitutions.csproj",
       "packagesPath": "C:\\Users\\Randall\\.nuget\\packages\\",
-      "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 4 - Classifiers\\obj\\",
+      "outputPath": "G:\\projects\\vector\\github\\Anki.Resources.Samples\\Example 5 - Text substitution\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "c:\\Users\\Randall\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2517,22 +2449,6 @@
           "Anki.Resources.SDK": {
             "target": "Package",
             "version": "[0.0.5, )"
-          },
-          "Emgu.CV": {
-            "target": "Package",
-            "version": "[4.3.0.3890, )"
-          },
-          "Emgu.CV.runtime.windows": {
-            "target": "Package",
-            "version": "[4.3.0.3890, )"
-          },
-          "Emgu.TF.Lite": {
-            "target": "Package",
-            "version": "[2.2.0.932, )"
-          },
-          "Emgu.TF.Lite.runtime.windows": {
-            "target": "Package",
-            "version": "[2.2.0.932, )"
           }
         },
         "imports": [
